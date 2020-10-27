@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
         
-<img class="banner" src="assets/images/student.jpg">
+<img class="banner" src="{{asset('assets/images/student.jpg')}}">
 
 
 <div class="text_div">

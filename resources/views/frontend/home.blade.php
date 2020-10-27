@@ -36,7 +36,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="assets/images/intro.jpg" alt="alternative" width="1000">
+                        <img class="img-fluid" src="{{asset('assets/images/intro.jpg')}}" alt="alternative" width="1000">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

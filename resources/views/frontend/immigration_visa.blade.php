@@ -1,13 +1,16 @@
 @extends('layouts.app')
 
- @section('content')
+@section('content')
+
+
+
 
 <!-- Banner -->
-    <div class="sub-page ">
+<div class="sub-page ">
         <div class="row">
             <div class="col-md-12 col-sm-12">
         
-<img class="banner" src="assets/images/immigration.jpg">
+<img class="banner" src="{{asset('assets/images/immigration.jpg')}}">
 
 
 <div class="text_div">
@@ -27,5 +30,3 @@
 </div>
 
 
-
-@endsection
